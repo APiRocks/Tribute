@@ -69,11 +69,10 @@ body{
     columns: 100%;
     background-color: rgba(255, 255, 255, 0.473);
     border-top: 1px solid var(--blue-txt);
-    padding: 2%;
+    padding: 1%;
     
 }
-#tribute-info p {
-    padding: 0%;    
+#tribute-info p {  
     justify-self: center;
     text-align: center;
     
@@ -85,8 +84,11 @@ list-style-type: none;
 margin-block-start: 1em;
 margin-block-end: 1em;
 margin-inline-start: 1em;
-margin-inline-end: 3em;
-padding-inline-start: 40px;
+margin-inline-end: 1em;
+padding-inline-start: 2em;
+padding-inline-end: 2em;
+border-left: 1px solid var(--blue-txt);
+border-right: 1px solid var(--blue-txt);
 }
 #tribute-info li {
     color: var(--blue-txt);
@@ -94,12 +96,13 @@ padding-inline-start: 40px;
     padding-top: 3%;
 } 
 #cite {
-    width: 18em;
-    padding: .1% 1% 1% 1%;    
+    width: 16em;
+    padding: 1%;    
     background-color: white;
-    border: 1px solid var(--blue-txt);
+    border-left: 1px solid var(--blue-txt);
+    border-top: 1px solid var(--blue-txt);
     border-radius: 5%;
-    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.664);
+    box-shadow: 5px 5px 10px 1px rgba(85, 84, 84, 0.411);
     justify-self: center;
 } 
 #signature {
@@ -109,7 +112,7 @@ padding-inline-start: 40px;
     max-width: 40%;
     height:auto;
     margin: auto;
-    padding-bottom: 5%;
+    padding-bottom: 1%;
 }  
 #tribute-link {
     color: var(--blue-txt);
