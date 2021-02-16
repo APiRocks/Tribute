@@ -1,0 +1,126 @@
+* {
+    font-family: "oswald", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: goldenrod;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+:root {
+    --bg-color: linear-gradient(to bottom right, rgba(0, 38, 119, 0.877), rgb(4, 104, 185), rgb(2, 75, 134));
+    --blue-txt: rgb(2, 75, 134);
+}
+body{
+    background-image: linear-gradient(to right, lightskyblue,white,lightskyblue,white,white,lightskyblue,white,lightskyblue);
+}
+#dios {
+    font-family: "bungee outline", cursive;
+    color: rgb(255, 255, 255);
+}
+#main {
+    margin-left: 2%;
+    width: 96%;
+    height: auto;
+    box-shadow: 2px 2px 25px 1px black;
+}
+#headline {
+    text-align: center;
+}
+#title {
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    background-image: var(--bg-color);
+    z-index: 2;
+    padding: .5% 1.1%;
+}
+#title h1 {
+    font-family: "bungee", cursive;
+}
+#title p {
+    background-color: rgba(2, 72, 175, 0.582);
+    color: rgb(255, 235, 205);
+}
+#nav-space {
+    
+    min-height: 22.5vh;
+}
+#img-div {
+    justify-items: center;
+}
+#image{
+    display: block;
+    align-content: center;
+    border-radius: 5%;
+    max-width: 100%;
+    height:auto;
+    filter: sepia(100%) saturate(100%) hue-rotate(180deg) contrast(1.5);
+    margin: auto;
+}
+#img-caption{
+    color: var(--blue-txt);
+    padding: 1%;
+
+}
+#tribute-info {
+    display: grid;
+    flex-wrap: wrap;    
+    columns: 100%;
+    background-color: rgba(255, 255, 255, 0.473);
+    border-top: 1px solid var(--blue-txt);
+    padding: 2%;
+    
+}
+#tribute-info p {
+    padding: 0%;    
+    justify-self: center;
+    text-align: center;
+    
+}
+#tribute-info ul {
+display: block;
+justify-self: center;
+list-style-type: none;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 1em;
+margin-inline-end: 3em;
+padding-inline-start: 40px;
+}
+#tribute-info li {
+    color: var(--blue-txt);
+    text-align: justify;
+    padding-top: 3%;
+} 
+#cite {
+    width: 18em;
+    padding: .1% 1% 1% 1%;    
+    background-color: white;
+    border: 1px solid var(--blue-txt);
+    border-radius: 5%;
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.664);
+    justify-self: center;
+} 
+#signature {
+    display: block;
+    align-content: center;
+    border-radius: 5%;
+    max-width: 40%;
+    height:auto;
+    margin: auto;
+    padding-bottom: 5%;
+}  
+#tribute-link {
+    color: var(--blue-txt);
+    justify-self: center; 
+}
+footer {
+    background-image: var(--bg-color);
+}
+#logo-api{
+    align-content: center;
+    max-width: 30%;
+    height:auto;
+    padding: 5%;
+}
